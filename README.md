@@ -29,7 +29,9 @@ Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lectur
 
 Write your Devlog here!
 
-We did end up writing it down, but the fact that  wasn't the first thing that came to mind that the plants spawn at the position of the player. I had to go back and add this when I was making the player script. In the PlantSeed method, I had to pass in the player's position and rotation when I call Instantiate to make the plant spawn in the player's position.
+We did end up writing it down, but the fact that  wasn't the first thing that came to mind that the plants spawn at the position of the player. I had to go back and add this when I was making the player script. In the PlantSeed method, I had to pass in the player's position and rotation when I call Instantiate to make the plant spawn in the player's position. Another interesting feature from the list was that the plant appears in front of the player. Someone else in my group wrote that part, but I didn't pay much attention to that until I had already made my game and the plant object spawned behind the player object. I had already made and uploaded a build when I noticed, and was told it won't affect my score, but I wanted to do it just to make sure I knew how and all I had to do was change the order in layer of the plant prefab to be higher ( I just made it 3 to be safe).
+
+When I started making the game, the first thing I thought about was the basic things like "what happens when I press each button" instead of something like immediately trying to implement the methods like UpdateSeeds in PlantCountUI. The first thing I did was make the player move with the wasd keys. Then I moved from there to what happens when you press space which I feel connects to the rest of the features/steps. Like if I start working from just what happens when you press space then I will end up working on adding to seeds planted, subtracting from remaining seeds, changing the UI, instantiating a plant, and where the plant goes.
 
 
 ## Open-Source Assets
