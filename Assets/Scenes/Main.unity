@@ -581,9 +581,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 1
   _playerTransform: {fileID: 935932060}
-  _plantPrefab: {fileID: 0}
+  _plantPrefab: {fileID: 7775758205044842945, guid: 3ead96be60679994ea24bfba0d215034, type: 3}
   _numSeeds: 5
-  _plantCountUI: {fileID: 0}
+  _plantCountUI: {fileID: 1657858111}
 --- !u!1 &1167303336
 GameObject:
   m_ObjectHideFlags: 0
