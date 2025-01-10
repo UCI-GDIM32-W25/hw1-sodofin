@@ -29,7 +29,7 @@ Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lectur
 
 Write your Devlog here!
 
-
+We did end up writing it down, but the fact that  wasn't the first thing that came to mind that the plants spawn at the position of the player. I had to go back and add this when I was making the player script. In the PlantSeed method, I had to pass in the player's position and rotation when I call Instantiate to make the plant spawn in the player's position.
 
 
 ## Open-Source Assets
